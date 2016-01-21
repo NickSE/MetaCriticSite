@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using MetacriticSite.Klassen;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -23,6 +24,19 @@ namespace MetacriticSite.Tests
             Game game = new Game(1, 10, "game", "genre", "some text", "xbox", DateTime.Now, 10);
             game = game.getGame("Fallout4"); //get the game fallout4
             Assert.AreEqual("Fallout4", game.Name, "Check if name is equal");
+        }
+
+        [TestMethod]
+        public void TestGetReviews()
+        {
+            List<Review> reviews = new List<Review>();
+            MetaReview meta = new MetaReview("name", "content", DateTime.Now, "spoiler", 10);
+            reviews = meta.getMetaReviews(1);
+            Assert.AreEqual(4, reviews.Count, "Count list items"); // gets all reviews with category 2 (games)
+            List<Review> userReviews = new List<Review>();
+            UserReview user = new UserReview("name", "content", DateTime.Now, "spoiler", 10, 1);
+            userReviews = user.getUserReviews(1);
+            Assert.AreEqual(4, userReviews.Count);
         }
     }
 }
