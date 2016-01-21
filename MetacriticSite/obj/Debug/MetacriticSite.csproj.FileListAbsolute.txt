@@ -5,3 +5,9 @@ c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSit
 c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite\obj\Debug\MetacriticSite.pdb
 C:\Users\Nick\Documents\Visual Studio 2013\Projects\MetacriticSite\MetacriticSite\bin\Oracle.ManagedDataAccess.dll
 C:\Users\Nick\Documents\Visual Studio 2013\Projects\MetacriticSite\MetacriticSite\obj\Debug\MetacriticSite.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite\bin\MetacriticSite.dll.config
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite\bin\MetacriticSite.dll
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite\bin\MetacriticSite.pdb
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite\obj\Debug\MetacriticSite.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite\obj\Debug\MetacriticSite.dll
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite\obj\Debug\MetacriticSite.pdb

@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace MetacriticSite.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class MetaTest
     {
         [TestMethod]
         public void TestMethod1()
