@@ -7,8 +7,11 @@ namespace MetacriticSite.Tests
     public class MetaTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestLogin()
         {
+            Klassen.Account acc = new Klassen.Account("test123");
+            bool ac = acc.LogIn("test123", "Test123"); //looks if you can login with test123 / Test123
+            Assert.AreEqual(true, ac, "Try to login");
         }
     }
 }

@@ -6,3 +6,11 @@ c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSit
 c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\obj\Debug\MetacriticSite.Tests.dll
 c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\obj\Debug\MetacriticSite.Tests.pdb
 C:\Users\Nick\Documents\Visual Studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite.Tests\bin\Debug\MetacriticSite.Tests.dll
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite.Tests\bin\Debug\MetacriticSite.Tests.pdb
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite.Tests\bin\Debug\MetacriticSite.dll
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite.Tests\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite.Tests\bin\Debug\MetacriticSite.pdb
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite.Tests\obj\Debug\MetacriticSite.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite.Tests\obj\Debug\MetacriticSite.Tests.dll
+C:\Users\Nick\Source\Repos\MetaCriticSite\MetacriticSite.Tests\obj\Debug\MetacriticSite.Tests.pdb
