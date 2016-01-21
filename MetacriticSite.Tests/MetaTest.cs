@@ -43,6 +43,14 @@ namespace MetacriticSite.Tests
         }
 
         [TestMethod]
+        public void TestGetShow()
+        {
+            Show show = new Show(10, 10, "name", "genre", "resume", DateTime.Now, 10, 10);
+            show = show.getShow("Power");
+            Assert.AreEqual("Power", show.Name, "Check if show name is equal");
+        }
+
+        [TestMethod]
         public void TestGetReviews()
         {
             List<Review> reviews = new List<Review>();
@@ -53,6 +61,17 @@ namespace MetacriticSite.Tests
             UserReview user = new UserReview("name", "content", DateTime.Now, "spoiler", 10, 1);
             userReviews = user.getUserReviews(1);
             Assert.AreEqual(4, userReviews.Count);
+        }
+
+        [TestMethod]
+        public void TestAverageScores()
+        {
+            Review review = new UserReview("name", "content", DateTime.Now, "spoiler", 10, 1);
+            List<int> scores = new List<int>();
+            scores.Add(100);
+            scores.Add(50);
+            int actual = review.AverageScore(scores);
+            Assert.AreEqual(75, actual, "Check average score");
         }
     }
 }
