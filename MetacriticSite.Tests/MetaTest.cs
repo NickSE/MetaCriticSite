@@ -27,6 +27,22 @@ namespace MetacriticSite.Tests
         }
 
         [TestMethod]
+        public void TestGetMovie()
+        {
+            Movie movie = new Movie(10, 10, "name", "genre", "resume", "director", 10, 10);
+            movie = movie.getMovie("Sinister");
+            Assert.AreEqual("Sinister", movie.Name, "Check if movie name is equal");
+        }
+
+        [TestMethod]
+        public void TestGetMusic()
+        {
+            Klassen.Music music = new Klassen.Music(10, 10, "name", "genre", "resume", DateTime.Now, "record");
+            music = music.getMusic("Eminem");
+            Assert.AreEqual("Eminem", music.Name, "Check if music name is equal");
+        }
+
+        [TestMethod]
         public void TestGetReviews()
         {
             List<Review> reviews = new List<Review>();
