@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MetacriticSite.master.cs" Inherits="MetacriticSite.MetacriticSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> Metacritic | </title>
+    <link href="style/stylesheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="placeholder">
+        <header>
+            <div id="masthead">
+                <div id="logo"><a href="MainPage.aspx"><img src="Logo/MC_logo.png" alt="Metacritic" height="45" width="200" /></a></div>
+            <nav>
+                <ul>
+                    <li><a href="Movies.aspx">Movies</a></li>
+                    <li><a href="Games.aspx">Games</a></li>
+                    <li><a href="TV.aspx">TV</a></li>
+                    <li><a href="Music.aspx">Music</a></li>
+                    <li><a href="Features.aspx">Features</a></li>
+                </ul>
+            </nav>
+                
+                <div id="form">
+                <div id="searchDiv" runat="server">
+                    <ul>
+                        <li>
+                             <asp:TextBox id="SearchBar" CssClass="SearchBar" placeholder="Search Metacritic" runat="server"></asp:TextBox>
+                        </li>
+                    </ul>
+                </div>
+
+                </div>
+            </div>
+            <div id="masthead_wrap">
+                    <a href="Account.aspx"><asp:Label ID="lblUsername" runat="server" Text=""></asp:Label></a>
+                    <a href="Login.aspx">Log in</a>
+                    <a href="Signup.aspx">Sign up</a>
+            </div>
+        </header>
+        <div id="container">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            
+                
+            
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>&copy; Nick Liebregts 2016 all rights reserved. Not affiliated with metacritics. </footer>
+    </div>
+    </form>
+</body>
+</html>

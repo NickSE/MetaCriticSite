@@ -1,0 +1,164 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background-color: #000000;
+}
+
+body {
+    background-image: url("../Logo/MC_background.png");
+}
+
+#masthead{
+    background-color: #000000;
+    height: 70px;
+    width: 800px;
+    margin: 0 auto;
+}
+#logo {
+    display: inline-block;
+    padding-top: 12px;
+}
+
+a {
+    
+}
+
+.SearchBar {
+    width: 240px;
+    display: inline-block;
+    border: solid 2px;
+    border-radius: 3px;
+    height: 30px;
+    padding-left: 10px;
+
+}
+
+.field {
+    z-index: 1;
+    position: relative;
+    left: 5px;
+    height: 33px;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #ababab;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: #b4b4b4;
+    font-style: italic;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 14px;
+    position: relative;
+}
+
+#masthead_wrap {
+    background: linear-gradient(to bottom,#1c85b8 0,#1e8cd8 35%,#1e8cd8 65%,#1c85b8 100%);
+    width: 100%;
+    min-height: 35px;
+    color: #fff;
+    text-align: right;
+}
+
+#masthead_wrap a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font: normal 12px arial,helvetica,serif;
+    font-size: 14px;
+    line-height: 17px;
+    display: inline-block;
+    margin-right: 20px;
+}
+#masthead_wrap a:hover {
+    text-decoration: underline;    
+}
+
+#masthead_wrap a:first-child:after {
+    content: " |";
+}
+#searchDiv {
+    width: 200px;
+    display: inline-block;
+}
+#form {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 70px;
+}
+.msg_search {
+    color: #b4b4b4;
+    font-style: italic;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 14px;
+    position: relative;
+    top: -21px;
+    left: 6px;
+    z-index: 0;
+}
+
+.images {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav {
+    display: inline-block;
+    line-height: 70px;
+    vertical-align: top;
+    width: 360px;
+}
+header ul {
+    list-style-type:none;
+    display: inline-block;
+}
+nav ul{
+    list-style: none;
+    margin-left: 15px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 10px;
+    font: bold 18px arial,helvetica,serif;
+}
+
+nav ul li a:hover {
+    background: linear-gradient(to bottom,#1c85b8 0,#1e8cd8 35%,#1e8cd8 65%,#1c85b8 100%);
+    border-radius: 3px 3px 3px 3px;
+}
+
+.info {
+    
+}
+
+.samenvatting {
+    
+}
+
+.reviews {
+    border: 1px solid;
+    border-radius: 6px;
+    min-height: 100px;
+    width: 250px;
+    background-color: white;
+}
+.reviewcontainer {
+    
+}
+#container {
+    min-height: 600px;
+}

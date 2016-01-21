@@ -1,0 +1,8 @@
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\bin\Debug\MetacriticSite.Tests.dll
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\bin\Debug\MetacriticSite.Tests.pdb
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\bin\Debug\MetacriticSite.dll
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\bin\Debug\MetacriticSite.pdb
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\obj\Debug\MetacriticSite.Tests.csprojResolveAssemblyReference.cache
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\obj\Debug\MetacriticSite.Tests.dll
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\obj\Debug\MetacriticSite.Tests.pdb
+C:\Users\Nick\Documents\Visual Studio 2013\Projects\MetacriticSite\MetacriticSite.Tests\bin\Debug\Oracle.ManagedDataAccess.dll

@@ -1,0 +1,7 @@
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite\bin\MetacriticSite.dll.config
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite\bin\MetacriticSite.dll
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite\bin\MetacriticSite.pdb
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite\obj\Debug\MetacriticSite.dll
+c:\users\nick\documents\visual studio 2013\Projects\MetacriticSite\MetacriticSite\obj\Debug\MetacriticSite.pdb
+C:\Users\Nick\Documents\Visual Studio 2013\Projects\MetacriticSite\MetacriticSite\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Nick\Documents\Visual Studio 2013\Projects\MetacriticSite\MetacriticSite\obj\Debug\MetacriticSite.csprojResolveAssemblyReference.cache
